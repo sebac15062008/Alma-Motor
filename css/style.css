@@ -46,15 +46,15 @@ body {
 
 .logo img { height: 40px; filter: drop-shadow(0 0 5px var(--acid)); }
 
-.nav-links { display: flex; list-style: none; gap: 40px; }
+.nav-links { display: flex; list-style: none; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
 .nav-links a {
     text-decoration: none;
     color: var(--white);
     font-weight: 800;
-    font-size: 0.7rem;
+    font-size: 0.55rem;
     text-transform: uppercase;
-    letter-spacing: 3px;
-    padding: 10px 20px;
+    letter-spacing: 1px;
+    padding: 6px 10px;
     border: 1px solid transparent;
     transition: 0.3s;
 }
