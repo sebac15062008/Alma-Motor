@@ -6,19 +6,16 @@
     <title>COMPETENCIA 2 | ALMA DE MOTOR</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <style>
-        .comp-content { padding: 100px 8%; color: var(--silver); }
-        .hero-comp { text-align: center; margin-bottom: 60px; }
-        .product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-top: 40px; }
-        .prod-card { background: var(--tungsten); padding: 20px; border: 1px solid #444; }
-        .prod-card h3 { color: var(--acid); margin-bottom: 10px; }
-        .price { font-weight: 800; color: var(--white); font-size: 1.2rem; margin-top: 10px; display: block; }
-    </style>
 </head>
 <body>
 
     <nav class="navbar">
         <a href="index.html" class="logo"><img src="assets/Logo.jpg" alt="Alma de Motor"></a>
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
         <ul class="nav-links">
             <li><a href="index.html">Inicio</a></li>
             <li><a href="competencia1.html">Ética</a></li>
@@ -35,11 +32,11 @@
 
     <main class="comp-content">
         <div class="hero-comp">
-            <h1 style="font-family: 'Unbounded'; font-size: 3rem;">COMPETENCIA COMUNICATIVA</h1>
+            <h1>COMPETENCIA COMUNICATIVA</h1>
             <p style="font-size: 1.5rem; color: var(--acid);">Tema: Redacción del "Dossier de Artista" y Pitch de Venta</p>
             <p style="max-width: 800px; margin: 20px auto; line-height: 1.8;">Dominar el lenguaje visual y escrito es vital para transformar una idea en una marca reconocida. En "Alma de Motor", no solo vendemos prendas; comunicamos pasión, velocidad y una identidad única. Este dossier refleja la esencia de nuestra marca y nuestra capacidad para convencer a cualquier cliente sobre el valor de nuestra propuesta personalizada.</p>
 
-            <video controls style="width: 100%; max-width: 800px; margin-top: 40px; border: 2px solid var(--acid);">
+            <video autoplay controls style="width: 100%; max-width: 800px; margin-top: 40px; border: 2px solid var(--acid);">
                 <source src="assets/Proyecto de vídeo 5.mp4" type="video/mp4">
             </video>
 
@@ -89,10 +86,37 @@
         </section>
     </main>
 
-    <footer style="padding: 50px 8%; border-top: 1px solid var(--tungsten);">
-        <div style="display: flex; justify-content: space-between; align-items: center;">
-            <img src="assets/Logo.jpg" alt="Logo" style="height: 30px; opacity: 0.5;">
-            <p style="color: #444;">ALMA DE MOTOR © 2026. STEALTH PERFORMANCE DIVISION.</p>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="assets/Logo.jpg" alt="Logo" style="height: 180px; opacity: 0.8;">
+                <p>Artesanía técnica y personalización radical. Fusionamos la pasión por el motor con la precisión textil del proyecto Maker & Marketer.</p>
+            </div>
+            <div class="footer-links">
+                <h4>NAVEGACIÓN</h4>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="competencia1.html">Ética de Suministros</a></li>
+                    <li><a href="competencia3.html">Identidad Visual</a></li>
+                    <li><a href="bitacora.html">Bitácora de Diseño</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>CONTACTO</h4>
+                <ul>
+                    <li><a href="mailto:info@almademotor.com">info@almademotor.com</a></li>
+                    <li><a href="contacto.html">Soporte Técnico</a></li>
+                    <li><a href="#">Ubicación: Stealth Division HQ</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>ALMA DE MOTOR © 2026. STEALTH PERFORMANCE DIVISION.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
         </div>
     </footer>
 

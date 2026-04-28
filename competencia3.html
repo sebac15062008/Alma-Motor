@@ -6,21 +6,16 @@
     <title>COMPETENCIA CREATIVA | ALMA DE MOTOR</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <style>
-        .comp-content { padding: 100px 8%; color: var(--silver); }
-        .hero-comp { border-left: 5px solid var(--acid); padding-left: 40px; margin-bottom: 60px; }
-        .content-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 40px; }
-        .box { background: var(--tungsten); padding: 40px; }
-        .box h3 { color: var(--acid); font-family: 'Unbounded'; margin-bottom: 20px; }
-        .img-block { background: #333; height: 200px; display: flex; align-items: center; justify-content: center; border: 2px dashed var(--acid); margin: 20px 0; color: #777; }
-        .info-list { list-style: none; padding: 0; }
-        .info-list li { margin-bottom: 15px; padding: 10px; background: #252525; }
-    </style>
 </head>
 <body>
 
     <nav class="navbar">
         <a href="index.html" class="logo"><img src="assets/Logo.jpg" alt="Alma de Motor"></a>
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
         <ul class="nav-links">
             <li><a href="index.html">Inicio</a></li>
             <li><a href="competencia1.html">Ética</a></li>
@@ -37,7 +32,7 @@
 
     <main class="comp-content">
         <header class="hero-comp">
-            <h1 style="font-family: 'Unbounded'; font-size: 3rem;">PENSAMIENTO LÓGICO, CREATIVO Y CRÍTICO</h1>
+            <h1>PENSAMIENTO LÓGICO, CREATIVO Y CRÍTICO</h1>
             <p style="font-size: 1.5rem; color: var(--acid);">Tema: Diseño de Identidad Visual y Logotipo</p>
         </header>
 
@@ -78,10 +73,37 @@
         </section>
     </main>
 
-    <footer style="padding: 50px 8%; border-top: 1px solid var(--tungsten);">
-        <div style="display: flex; justify-content: space-between; align-items: center;">
-            <img src="assets/Logo.jpg" alt="Logo" style="height: 30px; opacity: 0.5;">
-            <p style="color: #444;">ALMA DE MOTOR © 2026. STEALTH PERFORMANCE DIVISION.</p>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="assets/Logo.jpg" alt="Logo" style="height: 180px; opacity: 0.8;">
+                <p>Artesanía técnica y personalización radical. Fusionamos la pasión por el motor con la precisión textil del proyecto Maker & Marketer.</p>
+            </div>
+            <div class="footer-links">
+                <h4>NAVEGACIÓN</h4>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="competencia1.html">Ética de Suministros</a></li>
+                    <li><a href="competencia3.html">Identidad Visual</a></li>
+                    <li><a href="bitacora.html">Bitácora de Diseño</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>CONTACTO</h4>
+                <ul>
+                    <li><a href="mailto:info@almademotor.com">info@almademotor.com</a></li>
+                    <li><a href="contacto.html">Soporte Técnico</a></li>
+                    <li><a href="#">Ubicación: Stealth Division HQ</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>ALMA DE MOTOR © 2026. STEALTH PERFORMANCE DIVISION.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
         </div>
     </footer>
 
